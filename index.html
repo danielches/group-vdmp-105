@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Командный учебный сайт группы VДМП-105уцп">
+  <title>VДМП-105уцп — сайт группы</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="На главную">
+      <span class="brand-mark">V</span>
+      <span>ДМП-105уцп</span>
+    </a>
+
+    <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span></span><span></span><span></span>
+      <span class="visually-hidden">Открыть меню</span>
+    </button>
+
+    <nav class="site-nav" id="site-nav" aria-label="Основная навигация">
+      <a href="#about">О группе</a>
+      <a href="#team">Участники</a>
+      <a href="#workflow">Как работаем</a>
+      <a href="#result">Результат</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">Командный учебный проект</p>
+        <h1 id="hero-title">Сайт группы<br><span>VДМП-105уцп</span></h1>
+        <p class="hero-text">Общий проект, в котором каждый участник добавляет свою часть через GitHub.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#team">Наша команда</a>
+          <a class="button button-secondary" href="#workflow">Процесс разработки</a>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="hero-card hero-card-main">
+          <span class="terminal-dot"></span>
+          <span class="terminal-dot"></span>
+          <span class="terminal-dot"></span>
+          <code>git push origin<br><strong>member/profile</strong></code>
+        </div>
+        <div class="hero-card hero-card-small">8 участников</div>
+        <div class="hero-card hero-card-status"><span></span> работа в команде</div>
+      </div>
+    </section>
+
+    <section class="section about" id="about" aria-labelledby="about-title">
+      <div class="section-heading">
+        <p class="eyebrow">О группе</p>
+        <h2 id="about-title">Один сайт — разные участники</h2>
+      </div>
+      <div class="about-grid">
+        <p class="lead">Мы учимся совместно разрабатывать проект: распределяем задачи, работаем в отдельных ветках и объединяем изменения через pull request.</p>
+        <div class="fact-list">
+          <div class="fact"><strong>01</strong><span>Общий репозиторий</span></div>
+          <div class="fact"><strong>02</strong><span>Личные ветки</span></div>
+          <div class="fact"><strong>03</strong><span>История вкладов</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section team" id="team" aria-labelledby="team-title">
+      <div class="section-heading heading-row">
+        <div>
+          <p class="eyebrow">Команда</p>
+          <h2 id="team-title">Участники проекта</h2>
+        </div>
+        <p>Каждый участник редактирует только свой файл в папке <code>members</code>.</p>
+      </div>
+
+      <div class="members-grid">
+        <iframe src="members/member-01.html" title="Участник 1" loading="lazy"></iframe>
+        <iframe src="members/member-02.html" title="Участник 2" loading="lazy"></iframe>
+        <iframe src="members/member-03.html" title="Участник 3" loading="lazy"></iframe>
+        <iframe src="members/member-04.html" title="Участник 4" loading="lazy"></iframe>
+        <iframe src="members/member-05.html" title="Участник 5" loading="lazy"></iframe>
+        <iframe src="members/member-06.html" title="Участник 6" loading="lazy"></iframe>
+        <iframe src="members/member-07.html" title="Участник 7" loading="lazy"></iframe>
+        <iframe src="members/member-08.html" title="Участник 8" loading="lazy"></iframe>
+      </div>
+    </section>
+
+    <section class="section workflow" id="workflow" aria-labelledby="workflow-title">
+      <div class="section-heading">
+        <p class="eyebrow">Совместная разработка</p>
+        <h2 id="workflow-title">Как появляется общий результат</h2>
+      </div>
+
+      <ol class="steps">
+        <li>
+          <span>01</span>
+          <div><h3>Получить проект</h3><p>Клонировать общий репозиторий на компьютер.</p></div>
+        </li>
+        <li>
+          <span>02</span>
+          <div><h3>Создать ветку</h3><p>Работать в ветке со своим именем, не в <code>main</code>.</p></div>
+        </li>
+        <li>
+          <span>03</span>
+          <div><h3>Добавить профиль</h3><p>Заполнить закреплённый файл участника.</p></div>
+        </li>
+        <li>
+          <span>04</span>
+          <div><h3>Сделать push</h3><p>Отправить ветку в GitHub из личного аккаунта.</p></div>
+        </li>
+        <li>
+          <span>05</span>
+          <div><h3>Открыть pull request</h3><p>Проверить изменения и добавить их в общий сайт.</p></div>
+        </li>
+      </ol>
+    </section>
+
+    <section class="section result" id="result" aria-labelledby="result-title">
+      <div class="result-copy">
+        <p class="eyebrow">Результат</p>
+        <h2 id="result-title">Вклад каждого виден в GitHub</h2>
+        <p>Коммиты, ветки и pull request показывают, кто и какую часть сайта сделал.</p>
+      </div>
+      <div class="result-command" aria-label="Пример последовательности команд">
+        <span>Команды участника</span>
+        <code>git add members/member-02.html</code>
+        <code>git commit -m "Add member profile"</code>
+        <code>git push -u origin member/name</code>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>VДМП-105уцп</span>
+    <p>Командный учебный проект · <span id="year">2026</span></p>
+  </footer>
+</body>
+</html>
