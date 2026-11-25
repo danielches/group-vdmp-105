@@ -1,17 +1,15 @@
 # Как добавить свой вклад
 
-Участники не имеют права записи в основной репозиторий. Каждый работает через собственный fork и отправляет pull request владельцу проекта.
+Участники работают в отдельных ветках основного репозитория и отправляют pull request владельцу проекта. Прямой push в `main` запрещён.
 
-## 1. Сделать fork
+## 1. Принять приглашение
 
-Откройте основной репозиторий на GitHub и нажмите `Fork`. В вашем аккаунте появится личная копия проекта.
+Владелец добавляет участника в Collaborators. Примите приглашение GitHub, чтобы получить возможность отправлять отдельные ветки в репозиторий.
 
-## 2. Клонировать свой fork
-
-Вместо `YOUR_LOGIN` укажите свой GitHub-логин.
+## 2. Клонировать основной репозиторий
 
 ```bash
-git clone https://github.com/YOUR_LOGIN/group-vdmp-105.git
+git clone https://github.com/danielches/group-vdmp-105.git
 cd group-vdmp-105
 ```
 
@@ -47,7 +45,7 @@ git add members/member-02.html
 git commit -m "Add profile: surname"
 ```
 
-## 6. Отправить ветку в свой fork
+## 6. Отправить личную ветку
 
 ```bash
 git push -u origin member/surname
@@ -59,7 +57,7 @@ git push -u origin member/surname
 
 - `base repository` — основной репозиторий проекта;
 - `base` — `main`;
-- `head repository` — ваш fork;
+- `head repository` — основной репозиторий проекта;
 - `compare` — ваша ветка `member/surname`.
 
 Добавьте короткое описание и отправьте pull request. Только владелец основного репозитория проверяет и объединяет изменения в `main`.
