@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Командный учебный сайт группы VДМП-105уцп">
+  <meta name="description" content="Сайт учебной группы VДМП-105уцп">
   <title>VДМП-105уцп — сайт группы</title>
   <link rel="stylesheet" href="styles.css">
   <script src="script.js" defer></script>
@@ -23,20 +23,20 @@
     <nav class="site-nav" id="site-nav" aria-label="Основная навигация">
       <a href="#about">О группе</a>
       <a href="#team">Участники</a>
-      <a href="#workflow">Как работаем</a>
-      <a href="#result">Результат</a>
+      <a href="#study">Учебная программа</a>
+      <a href="#project">О проекте</a>
     </nav>
   </header>
 
   <main id="top">
     <section class="hero" aria-labelledby="hero-title">
       <div class="hero-copy">
-        <p class="eyebrow">Командный учебный проект</p>
-        <h1 id="hero-title">Сайт группы<br><span>VДМП-105уцп</span></h1>
-        <p class="hero-text">Общий проект, в котором каждый участник добавляет свою часть через GitHub.</p>
+        <p class="eyebrow">Магистратура · Прикладная информатика</p>
+        <h1 id="hero-title">Группа<br><span>VДМП-105уцп</span></h1>
+        <p class="hero-text">Учимся, обмениваемся опытом и вместе работаем над учебными проектами.</p>
         <div class="hero-actions">
-          <a class="button button-primary" href="#team">Наша команда</a>
-          <a class="button button-secondary" href="#workflow">Процесс разработки</a>
+          <a class="button button-primary" href="#team">Познакомиться</a>
+          <a class="button button-secondary" href="#about">О нашей группе</a>
         </div>
       </div>
 
@@ -44,27 +44,29 @@
         <div class="orbit orbit-one"></div>
         <div class="orbit orbit-two"></div>
         <div class="hero-card hero-card-main">
-          <span class="terminal-dot"></span>
-          <span class="terminal-dot"></span>
-          <span class="terminal-dot"></span>
-          <code>git push origin<br><strong>member/profile</strong></code>
+          <span class="card-label">Нас объединяет</span>
+          <div class="hero-card-values">
+            <strong>знания</strong>
+            <strong>опыт</strong>
+            <strong>идеи</strong>
+          </div>
         </div>
         <div class="hero-card hero-card-small">8 участников</div>
-        <div class="hero-card hero-card-status"><span></span> работа в команде</div>
+        <div class="hero-card hero-card-status"><span></span> движемся вперёд</div>
       </div>
     </section>
 
     <section class="section about" id="about" aria-labelledby="about-title">
       <div class="section-heading">
-        <p class="eyebrow">О группе</p>
-        <h2 id="about-title">Один сайт — разные участники</h2>
+        <p class="eyebrow">Наша группа</p>
+        <h2 id="about-title">Разный опыт — общая цель</h2>
       </div>
       <div class="about-grid">
-        <p class="lead">Мы учимся совместно разрабатывать проект: распределяем задачи, работаем в отдельных ветках и объединяем изменения через pull request.</p>
+        <p class="lead">В группе собрались люди с разным профессиональным опытом, которых объединяют учёба, развитие и интерес к современным информационным технологиям.</p>
         <div class="fact-list">
-          <div class="fact"><strong>01</strong><span>Общий репозиторий</span></div>
-          <div class="fact"><strong>02</strong><span>Личные ветки</span></div>
-          <div class="fact"><strong>03</strong><span>История вкладов</span></div>
+          <div class="fact"><strong>01</strong><span>Магистратура</span></div>
+          <div class="fact"><strong>02</strong><span>Прикладная информатика</span></div>
+          <div class="fact"><strong>03</strong><span>Учебные проекты</span></div>
         </div>
       </div>
     </section>
@@ -73,9 +75,9 @@
       <div class="section-heading heading-row">
         <div>
           <p class="eyebrow">Команда</p>
-          <h2 id="team-title">Участники проекта</h2>
+          <h2 id="team-title">Участники группы</h2>
         </div>
-        <p>Каждый участник редактирует только свой файл в папке <code>members</code>.</p>
+        <p>У каждого участника свой опыт, интересы и профессиональное направление.</p>
       </div>
 
       <div class="members-grid">
@@ -90,47 +92,69 @@
       </div>
     </section>
 
-    <section class="section workflow" id="workflow" aria-labelledby="workflow-title">
+    <section class="section workflow" id="study" aria-labelledby="workflow-title">
       <div class="section-heading">
-        <p class="eyebrow">Совместная разработка</p>
-        <h2 id="workflow-title">Как появляется общий результат</h2>
+        <p class="eyebrow">Учебная программа</p>
+        <h2 id="workflow-title">Дисциплины по семестрам</h2>
       </div>
 
-      <ol class="steps">
-        <li>
-          <span>01</span>
-          <div><h3>Получить проект</h3><p>Клонировать общий репозиторий на компьютер.</p></div>
-        </li>
-        <li>
-          <span>02</span>
-          <div><h3>Создать ветку</h3><p>Работать в ветке со своим именем, не в <code>main</code>.</p></div>
-        </li>
-        <li>
-          <span>03</span>
-          <div><h3>Добавить профиль</h3><p>Заполнить закреплённый файл участника.</p></div>
-        </li>
-        <li>
-          <span>04</span>
-          <div><h3>Сделать push</h3><p>Отправить ветку в GitHub из личного аккаунта.</p></div>
-        </li>
-        <li>
-          <span>05</span>
-          <div><h3>Открыть pull request</h3><p>Проверить изменения и добавить их в общий сайт.</p></div>
-        </li>
-      </ol>
+      <div class="semester-tabs" role="tablist" aria-label="Выбор семестра">
+        <button class="semester-tab is-active" type="button" role="tab" aria-selected="true" aria-controls="semester-1" data-semester="1">01 <span>текущий</span></button>
+        <button class="semester-tab" type="button" role="tab" aria-selected="false" aria-controls="semester-2" data-semester="2">02</button>
+        <button class="semester-tab" type="button" role="tab" aria-selected="false" aria-controls="semester-3" data-semester="3">03</button>
+        <button class="semester-tab" type="button" role="tab" aria-selected="false" aria-controls="semester-4" data-semester="4">04</button>
+      </div>
+
+      <div class="semester-panel is-active" id="semester-1" role="tabpanel" data-panel="1">
+        <div class="semester-head"><h3>1 семестр</h3><span>6 дисциплин</span></div>
+        <div class="semester-row"><p>Математическое моделирование</p><span class="control exam">Экзамен</span></div>
+        <div class="semester-row"><p>Техническая ИТ-документация и международное взаимодействие</p><span class="control exam">Экзамен</span></div>
+        <div class="semester-row"><p>Управление коллективной разработкой приложений</p><span class="control exam">Экзамен</span></div>
+        <div class="semester-row"><p>Системы поддержки принятия решений</p><span class="control exam">Экзамен</span></div>
+        <div class="semester-row"><p>Управление электронным документооборотом организации</p><span class="control credit">Зачёт</span></div>
+        <div class="semester-row"><p>Эксплуатационная производственная практика</p><span class="control practice">Практика</span></div>
+      </div>
+
+      <div class="semester-panel" id="semester-2" role="tabpanel" data-panel="2" hidden>
+        <div class="semester-head"><h3>2 семестр</h3><span>5 дисциплин</span></div>
+        <div class="semester-row"><p>Методология и технологии проектирования информационных систем</p><span class="control exam">Экзамен</span></div>
+        <div class="semester-row"><p>Кибербезопасность и управление рисками</p><span class="control exam">Экзамен</span></div>
+        <div class="semester-row"><p>Создание MVP и его продвижение</p><span class="control exam">Экзамен</span></div>
+        <div class="semester-row"><p>Информационные системы управления бизнесом</p><span class="control exam">Экзамен</span></div>
+        <div class="semester-row"><p>Технологическая учебная практика</p><span class="control practice">Практика</span></div>
+      </div>
+
+      <div class="semester-panel" id="semester-3" role="tabpanel" data-panel="3" hidden>
+        <div class="semester-head"><h3>3 семестр</h3><span>7 дисциплин</span></div>
+        <div class="semester-row"><p>Этика ИИ и ответственные ИТ-технологии</p><span class="control exam">Экзамен</span></div>
+        <div class="semester-row"><p>Математические и инструментальные методы поддержки принятия решений</p><span class="control exam">Экзамен</span></div>
+        <div class="semester-row"><p>Архитектура предприятий и информационных систем</p><span class="control exam">Экзамен</span></div>
+        <div class="semester-row"><p>Современные технологии разработки программного обеспечения</p><span class="control exam">Экзамен</span></div>
+        <div class="semester-row"><p>Аутсорсинг информационных технологий и систем</p><span class="control credit">Зачёт</span></div>
+        <div class="semester-row"><p>Машинное обучение и рекомендательные системы</p><span class="control credit">Зачёт</span></div>
+        <div class="semester-row"><p>Эксплуатационная производственная практика</p><span class="control practice">Практика</span></div>
+      </div>
+
+      <div class="semester-panel" id="semester-4" role="tabpanel" data-panel="4" hidden>
+        <div class="semester-head"><h3>4 семестр</h3><span>4 дисциплины</span></div>
+        <div class="semester-row"><p>Выполнение и защита выпускной квалификационной работы</p><span class="control exam">Экзамен</span></div>
+        <div class="semester-row"><p>Информационное общество и проблемы прикладной информатики</p><span class="control exam">Экзамен</span></div>
+        <div class="semester-row"><p>Управление ИТ-проектами</p><span class="control exam">Экзамен</span></div>
+        <div class="semester-row"><p>Технологическая производственная практика</p><span class="control practice">Практика</span></div>
+      </div>
     </section>
 
-    <section class="section result" id="result" aria-labelledby="result-title">
+    <section class="section result" id="project" aria-labelledby="result-title">
       <div class="result-copy">
-        <p class="eyebrow">Результат</p>
-        <h2 id="result-title">Вклад каждого виден в GitHub</h2>
-        <p>Коммиты, ветки и pull request показывают, кто и какую часть сайта сделал.</p>
+        <p class="eyebrow">Общий проект</p>
+        <h2 id="result-title">Сайт нашей группы</h2>
+        <p>Здесь собрана основная информация о группе и её участниках. Сайт развивается вместе с нами.</p>
       </div>
-      <div class="result-command" aria-label="Пример последовательности команд">
-        <span>Команды участника</span>
-        <code>git add members/member-02.html</code>
-        <code>git commit -m "Add member profile"</code>
-        <code>git push -u origin member/name</code>
+      <div class="result-command" aria-label="Содержание сайта">
+        <span>На этом сайте</span>
+        <p>Знакомство с участниками</p>
+        <p>Общая информация о группе</p>
+        <p>Наши интересы и учебная жизнь</p>
       </div>
     </section>
   </main>
