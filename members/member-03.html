@@ -1,179 +1,52 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta
-        name="description"
-        content="Семенов Даниил Дмитриевич, Go backend-разработчик. Резюме участника группы VДМП-105уцп."
-    >
-    <title>Семенов Даниил Дмитриевич | Резюме</title>
-    <link rel="stylesheet" href="member.css">
-    <script src="member.js"></script>
-    <style>
-        .semenov-profile .identity {
-            grid-template-columns: 112px minmax(0, 1fr);
-        }
-
-        .semenov-profile h1 {
-            font-size: clamp(2.1rem, 5vw, 4.3rem);
-            line-height: 1.08;
-            overflow-wrap: break-word;
-        }
-
-        .semenov-profile .slot,
-        .semenov-profile .tags span,
-        .semenov-profile .timeline-item span {
-            font-size: 0.875rem;
-        }
-
-        .semenov-profile .contact-link {
-            color: #1769e0;
-            overflow-wrap: anywhere;
-        }
-
-        .semenov-profile a:focus-visible {
-            outline: 3px solid #e28f1c;
-            outline-offset: 4px;
-        }
-
-        .embedded .semenov-profile .identity {
-            grid-template-columns: 44px minmax(0, 1fr);
-            gap: 12px;
-        }
-
-        .embedded .semenov-profile .resume-avatar {
-            width: 44px;
-            height: 44px;
-            font-size: 1rem;
-            border-radius: 12px;
-        }
-
-        .embedded .semenov-profile h1 {
-            font-size: clamp(1.15rem, 7vw, 1.65rem);
-            line-height: 1.12;
-        }
-
-        .embedded .semenov-profile .resume-hero {
-            padding: 18px 16px 52px;
-        }
-
-        .embedded .semenov-profile .slot {
-            font-size: 0.75rem;
-        }
-
-        @media (max-width: 600px) {
-            .semenov-profile .identity {
-                grid-template-columns: 1fr;
-                gap: 20px;
-            }
-
-            .semenov-profile .resume-hero {
-                padding: 36px 6vw;
-            }
-
-            .semenov-profile .resume-content {
-                padding-top: 28px;
-            }
-        }
-
-        @media (prefers-reduced-motion: reduce) {
-            html {
-                scroll-behavior: auto;
-            }
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Александр Квасов — приложения, анализ данных и автоматизация документооборота. Кейсы, подход к решению задач и образование.">
+  <title>Резюме — Александр Квасов</title>
+  <link rel="stylesheet" href="member.css">
+  <script src="member.js"></script>
 </head>
-<body class="semenov-profile">
-<nav class="resume-nav">
-    <a href="../index.html#team">К группе</a>
-    <span>VДМП-105уцп · резюме участника</span>
-</nav>
-<header class="resume-hero">
+<body>
+  <nav class="resume-nav"><a href="../index.html#team">← К группе</a><span>VДМП-105уцп · резюме участника</span></nav>
+  <header class="resume-hero">
     <div class="identity">
-        <div class="resume-avatar" aria-label="Инициалы ДС">ДС</div>
-        <div>
-            <span class="slot">Участник 03</span>
-            <h1>Семенов Даниил Дмитриевич</h1>
-            <p class="role">Go backend-разработчик</p>
-        </div>
+      <div class="resume-avatar">АК</div>
+      <div><span class="slot">Участник 03</span><h1>Александр Квасов</h1><p class="role">Приложения · анализ данных · автоматизация</p></div>
     </div>
-</header>
-<main class="resume-content">
+  </header>
+  <main class="resume-content">
     <aside class="resume-column">
-        <section class="resume-section">
-            <h2>Навыки</h2>
-            <div class="tags">
-                <span class="accent">Go</span>
-                <span>YT</span>
-                <span>ClickHouse</span>
-                <span>PostgreSQL</span>
-                <span>gRPC</span>
-                <span>MCP</span>
-                <span>Kafka</span>
-                <span>Docker</span>
-                <span>etcd</span>
-            </div>
-        </section>
-        <section class="resume-section">
-            <h2>Образование</h2>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <span>Бакалавриат</span>
-                    <strong>РТУ МИРЭА</strong>
-                    <p>Программная инженерия</p>
-                </div>
-                <div class="timeline-item">
-                    <span>Магистратура</span>
-                    <strong>Университет «Синергия»</strong>
-                    <p>Группа VДМП-105уцп</p>
-                </div>
-            </div>
-        </section>
-        <section class="resume-section">
-            <h2>Контакты</h2>
-            <a class="contact-link" href="mailto:s3menovd4nil@yandex.ru">
-                s3menovd4nil@yandex.ru
-            </a>
-        </section>
+      <section class="resume-section">
+        <h2>Направления работы</h2>
+        <div class="tags"><span class="accent">Разработка приложений</span><span>Анализ данных</span><span>Математическое моделирование</span><span>Документооборот</span></div>
+      </section>
+      <section class="resume-section">
+        <h2>Образование</h2>
+        <div class="timeline"><div class="timeline-item"><span>Магистратура</span><strong>Университет «Синергия»</strong><p>Прикладная информатика<br>Группа VДМП-105уцп</p></div></div>
+      </section>
     </aside>
     <div class="resume-column">
-        <section class="resume-section">
-            <h2>О себе</h2>
-            <p>
-                Разрабатываю серверную часть приложений на Go. Работаю с хранением
-                и обработкой данных, межсервисным взаимодействием и инфраструктурой
-                распределённых приложений.
-            </p>
-        </section>
-        <section class="resume-section">
-            <h2>Опыт</h2>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <span>Backend-разработка</span>
-                    <strong>Сервисы на Go и работа с данными</strong>
-                    <p>
-                        В моей практике сочетаются разработка сервисов на Go,
-                        работа с YT, ClickHouse и PostgreSQL, интеграция компонентов
-                        через gRPC и MCP, обмен сообщениями с помощью Kafka.
-                        Для контейнеризации использую Docker, для задач координации
-                        и конфигурации сервисов работаю с etcd.
-                    </p>
-                </div>
-            </div>
-        </section>
-        <section class="resume-section">
-            <h2>Профессиональная цель</h2>
-            <p>
-                Стремлюсь к уровню senior backend-разработчика: хочу принимать
-                архитектурные решения, создавать надёжные сервисы и отвечать
-                за их стабильную работу в промышленной эксплуатации.
-            </p>
-        </section>
+      <section class="resume-section">
+        <h2>О себе</h2>
+        <p>Я Александр Квасов. Мои направления — прикладные приложения, анализ данных и автоматизация работы с документами. В портфолио собраны решения с понятной задачей, описанным подходом и результатом, который можно проверить.</p>
+        <p>В каждом кейсе показываю связь между исходными данными, выбранным решением и его ограничениями: от модели стоимости квартиры до маршрута согласования документов.</p>
+      </section>
+      <section class="resume-section">
+        <h2>Кейсы</h2>
+        <div class="timeline">
+          <div class="timeline-item"><span>Анализ данных</span><strong>Модель стоимости квартир</strong><p><b>Задача:</b> сопоставить характеристики квартир с ценой и оценить стоимость заданных объектов.</p><p><b>Решение:</b> подготовка выборки, сравнение регрессионных моделей и проверка качества оценок.</p><p><b>Результат:</b> модели, графики и воспроизводимые расчёты с прогнозами и описанными ограничениями.</p></div>
+          <div class="timeline-item"><span>Автоматизация процессов</span><strong>Документы и маршруты согласования</strong><p><b>Задача:</b> задать единый порядок подготовки, согласования и рассылки документов.</p><p><b>Решение:</b> шаблоны писем, схема движения документа и персонализация рассылки по списку получателей.</p><p><b>Результат:</b> комплект документов, маршрут согласования и сформированные персональные письма.</p></div>
+          <div class="timeline-item"><span>Командная разработка</span><strong>Сайт группы VДМП-105уцп</strong><p><b>Задача:</b> представить участников команды в единой структуре сайта.</p><p><b>Решение:</b> отдельная страница резюме с общими стилями и навигацией; изменения подготовлены в личной ветке репозитория.</p><p><b>Результат:</b> страница участника с превью на главной и подробными кейсами, подготовленная к включению в общий проект.</p></div>
+        </div>
+      </section>
+      <section class="resume-section">
+        <h2>Подход к работе</h2>
+        <p>Начинаю с задачи и критериев результата. Затем описываю данные и процесс, выбираю инструменты и проверяю полученное решение. В кейсах сохраняю расчёты и исходные предпосылки, чтобы выводы можно было воспроизвести.</p>
+      </section>
     </div>
-</main>
-<footer class="resume-footer">
-    VДМП-105уцп · личная страница участника
-</footer>
+  </main>
+  <footer class="resume-footer">VДМП-105уцп · Александр Квасов</footer>
 </body>
 </html>
