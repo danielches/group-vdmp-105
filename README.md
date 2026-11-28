@@ -8,8 +8,8 @@
 
 | Участник | Файл |
 |---|---|
-| Данил | `members/member-01.html` |
-| Участник 2 | `members/member-02.html` |
+| Данил Чесноков | `members/member-01.html` |
+| Глеб Галкин | `members/member-02.html` |
 | Участник 3 | `members/member-03.html` |
 | Участник 4 | `members/member-04.html` |
 | Участник 5 | `members/member-05.html` |
